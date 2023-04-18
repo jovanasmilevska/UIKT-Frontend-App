@@ -1,0 +1,55 @@
+.floatDiv {
+    display: none;
+    position: absolute;
+    background: white;
+    left: 159px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    z-index: 1;
+}
+
+.navBar_item0:hover > div {
+    display: block;
+    bottom: 119px;
+}
+
+.navBar_item1:hover > div {
+    display: block;
+    bottom: 87px;
+}
+
+.navBar_item2:hover > div {
+    display: block;
+    bottom: 55px;
+}
+
+.navBar_item3:hover > div {
+    display: block;
+    bottom: 23px;
+}
+
+#nav_bar {
+    background: #00145e;
+}
+
+.nav_bar_username {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 170px;
+    color: white;
+}
+
+.dropdown-menu {
+    left: -100px !important;
+}
+
+#nav_bar_search_icon {
+    color: white;
+    margin: 10px 15px 0 0;
+}
+
+@media (max-width: 992px) {
+    #navBar_dataBase {
+        width: 50px !important;
+    }
+}

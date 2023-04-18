@@ -1,0 +1,50 @@
+#login_title {
+    text-align: center !important;
+    margin: 15px 0 20px 0;
+}
+
+#login_card {
+    box-shadow: 5px 3px 10px 3px lightgray;
+    padding-bottom: 5%;
+}
+
+.login_btn {
+    background-color: #3752ad !important;
+    color: white !important;
+}
+
+.login_btn:hover {
+    background-color: #2a439a !important;
+}
+
+#login_btn_div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.login_password_input {
+    margin-top: 10px !important;
+}
+
+.login_register_btn {
+    margin: 15px 0;
+}
+
+#login_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login_form_element {
+    width: 80%;
+    max-width: 500px;
+}
+
+.login_positions {
+    max-width: 600px !important;
+    margin: auto;
+    margin-top: 5% !important;
+
+}

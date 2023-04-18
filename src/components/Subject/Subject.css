@@ -1,0 +1,78 @@
+#subject_title {
+    text-align: center;
+}
+
+
+.subject_form_group {
+    max-width: 300px;
+}
+
+.subject_add_button {
+    margin-bottom: 15px;
+}
+
+.subject_empty_text {
+    margin-top: 25px;
+    color: red;
+}
+
+.subject_sub_title_border_left {
+    margin-bottom: 20px;
+}
+
+.subject_sub_title_border_right {
+    margin-bottom: 20px;
+
+}
+
+.subject_delete_download_icons {
+    margin-top: 5px;
+    margin-left: 10px;
+    float: right;
+    cursor: pointer;
+    color: blue;
+}
+
+.subject_list {
+    margin-top: 10px;
+}
+
+.subject_name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* text-truncate   2ве команди горе може и со класава во "div" да се заменат*/
+    cursor: pointer;
+}
+
+#subject_download_div {
+    width: fit-content;
+}
+
+
+@media (min-width: 768px) {
+    .subject_sub_title_border_left {
+        border-left: 1px solid lightgray;
+        margin-bottom: 0;
+    }
+
+    .subject_sub_title_border_right {
+        border-right: 1px solid lightgray;
+        margin-bottom: 0;
+
+    }
+
+    .subject_sub_title {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+}
+
+#subject_edit_delete_btns {
+    float: right;
+
+}
+
+#subject_edit {
+    margin-right: 5px;
+}

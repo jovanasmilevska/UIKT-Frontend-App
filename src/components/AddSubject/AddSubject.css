@@ -1,0 +1,27 @@
+.add_sub_positions{
+    max-width: available !important;
+    margin: auto;
+    margin-top: 5% !important;
+
+}
+#add_sub_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px !important;
+    height: 80% !important;
+}
+.add_sub_element{
+    width: 70%;
+    max-width: 80%;
+    margin-top: 2% !important;
+}
+.add_subject{
+    background-color: #2a439a !important;
+    color: white !important;
+    padding-bottom: 5px!important;
+    padding-top: 5px !important;
+}
+.add_subject:hover{
+    background-color: #2e2a9a !important;
+}
